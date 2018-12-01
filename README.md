@@ -11,7 +11,7 @@ public class SavingsAccount {
 
         System.out.println("This program will calculate the balance of your savings account. It will take into account " +
                 "deposits, withdrawals, and interest.");
-       Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Please enter your starting balance: ");
         double startingBalance= sc.nextDouble();
